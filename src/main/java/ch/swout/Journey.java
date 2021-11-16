@@ -1,8 +1,9 @@
 package ch.swout;
 
-import java.io.IOException;
+import com.grack.nanojson.JsonParserException;
+
 import java.time.Duration;
 
 public interface Journey {
-    Duration duration();
+    Duration duration() throws JsonParserException;
 }
