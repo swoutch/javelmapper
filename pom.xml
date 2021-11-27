@@ -24,12 +24,6 @@
             <version>5.8.1</version>
         </dependency>
         <dependency>
-            <!-- todo: replace by nano json-->
-            <groupId>com.github.imrafaelmerino</groupId>
-            <artifactId>json-values</artifactId>
-            <version>9.1.0</version>
-        </dependency>
-        <dependency>
             <groupId>org.cactoos</groupId>
             <artifactId>cactoos</artifactId>
             <version>0.50</version>
@@ -40,11 +34,26 @@
             <version>4.9.2</version>
         </dependency>
         <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest</artifactId>
+            <version>2.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.json</groupId>
+            <artifactId>javax.json-api</artifactId>
+            <version>1.1.4</version>
+        </dependency>
+        <dependency>
             <groupId>com.grack</groupId>
-            <artifactId>nanojson</artifactId>
+            <artifactId>nanojson</artifactId><!--TODO: remove this dependency-->
             <version>1.7</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.glassfish</groupId>
+            <artifactId>javax.json</artifactId>
+            <version>1.1.4</version>
+        </dependency>
     </dependencies>
 
 </project>
